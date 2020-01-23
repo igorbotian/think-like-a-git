@@ -130,7 +130,7 @@ Graph theory can be used to describe a lot of things, but I'll start off with on
 
 Let's start at the very beginning, shall we?
 
-_[By the way: as important human inventions go, I happen to think graph theory is right up there alongside bacon and indoor plumbing. It takes some time to really sink in, though, so_ ***if you find your eyes glazing over in this section, don't worry about it.*** _As long as the page about [reachability](http://think-like-a-git.net/sections/graph-theory/reachability.html) makes sense to you, you can come back and reread these pages later.]_
+_[By the way: as important human inventions go, I happen to think graph theory is right up there alongside bacon and indoor plumbing. It takes some time to really sink in, though, so ***if you find your eyes glazing over in this section, don't worry about it.*** As long as the page about [reachability](http://think-like-a-git.net/sections/graph-theory/reachability.html) makes sense to you, you can come back and reread these pages later.]_
 
 ## Seven Bridges of Königsberg ##
 
