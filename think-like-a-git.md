@@ -6,7 +6,7 @@ rights:  Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported Lice
 language: en-US
 ---
 
-# Foreword {epub:type=prologue}
+# Foreword #
 
 When you're just getting started, something as straightforward as a merge can be terrifying. It can take a long time to really become comfortable using some of Git's more advanced features. (It took me a year or two.)
 
