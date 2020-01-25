@@ -8,5 +8,5 @@ The Markdown file can be easily converted to an e-book format.
 An example of making an EPUB book by means of [Pandoc utility](https://pandoc.org/) is below:
 
 ```bash
-pandoc src/*.md -f markdown -t epub -s -o think-like-a-git.epub
+pandoc *.md -f markdown -t epub -s -o think-like-a-git.epub
 ```
