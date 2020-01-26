@@ -7,10 +7,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v1
-      - run: "cat *.md > think-like-a-git.markdown"
+      - run: "cat src/*.md > think-like-a-git.markdown"
       - uses: docker://pandoc/core:latest
         with:
-          args: "think-like-a-git.markdown -f markdown -t epub -s -o think-like-a-git.epub"
+          args: "think-like-a-git.markdown --resource-path=.:src -f markdown -t epub -s -o think-like-a-git.epub"
       - uses: actions/upload-artifact@v1
         with:
           name: think-like-a-git
