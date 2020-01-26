@@ -6,8 +6,8 @@ Contents of [think-like-a-git.net](http://www.think-like-a-git.net) site in Mark
 ## Making an e-book
 
 The Markdown file can be easily converted to an e-book format.  
-An example of making an EPUB book by means of [Pandoc utility](https://pandoc.org/) is below:
+An example of building an EPUB book by means of [Pandoc utility](https://pandoc.org/) (v2.0 or above) is below:
 
 ```bash
-pandoc *.md -f markdown -t epub -s -o think-like-a-git.epub
+pandoc src/*.md --resource-path=.:src -f markdown -t epub -s -o think-like-a-git.epub
 ```
