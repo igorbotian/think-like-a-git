@@ -7,7 +7,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v1
-      - run: "awk 'FNR==1{print ""}1' src/*.md > think-like-a-git.md"
+      - run: awk 'FNR==1{print ""}1' src/*.md > think-like-a-git.md
       - uses: docker://pandoc/core:latest
         with:
           args: "think-like-a-git.md --resource-path=.:src -f markdown -t epub -s -o think-like-a-git.epub"
