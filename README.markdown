@@ -1,4 +1,5 @@
 # Think like (a) Git
+![EPUB](https://github.com/igorbotian/think-like-a-git/workflows/EPUB/badge.svg)
 
 Contents of [think-like-a-git.net](http://www.think-like-a-git.net) site in Markdown format.
 
